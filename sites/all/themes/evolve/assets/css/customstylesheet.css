@@ -1,0 +1,1452 @@
+/* STANDARD CSS ******************************************************************************************************************************/
+
+label {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+	font-size: 12px;
+}
+
+table th label {
+	margin: 0 10px;
+}
+
+table, .full-width, 
+.full-width img, .field-multiple-table, 
+.chosen-container, .full-width .form-submit,
+.g-recaptcha > div {
+	width: 100% !important;
+}
+
+.full-height {
+	height: 100%;
+}
+
+.no-padding, .custom-nav-bars.nav-tabs,
+.date-padding, .views-exposed-form .views-exposed-widget,
+.tb-megamenu-column-inner.mega-inner, .chosen-container .chosen-results {
+	padding: 0 !important;
+}
+
+.no-padding-top, .form-item, 
+.form-actions {
+	padding-top: 0 !important;
+}
+
+.no-padding-right {
+	padding-right: 0 !important;
+}
+
+.no-padding-bottom, div.image-preview {
+	padding-bottom: 0 !important;
+}
+
+.no-padding-left {
+	padding-left: 0 !important;
+}
+
+.no-margin,
+.geofield-proximity-field-wrapper .form-item,
+.views-exposed-form .views-exposed-widget .form-submit,
+.custom-nav-bars.nav-tabs, .tb-megamenu .tb-block, .form-type-radio .description, 
+.form-type-checkbox .description, .no-margin-form-item .form-item,
+.views-exposed-form .views-exposed-widgets, .no-margin-exposed-form .views-exposed-form {
+	margin: 0 !important;
+}
+
+.no-margin-top, .form-item, .field-type-text-with-summary  {
+	margin-top: 0 !important;
+}
+
+.no-margin-right {
+	margin-right: 0 !important;
+}
+
+.no-margin-bottom, table p {
+	margin-bottom: 0 !important;
+}
+
+.no-margin-left, .tb-megamenu .row-fluid [class*="span"] {
+	margin-left: 0 !important;
+}
+
+.no-float {
+	float: none;
+}
+
+.margin-auto {
+	margin: auto;
+}
+
+.inline-block, .tb-main-menu .dropdown-menu a,
+#edit-field-table-rate legend {
+    display: inline-block;
+}
+
+.position-relative {
+	position: relative;
+}
+
+.position-absolute {
+	position: absolute;
+}
+
+.alert-success, .alert-danger {
+	position: fixed;
+	bottom: 0px;
+	left: 15px;
+	z-index: 999;
+}
+
+.container-details {
+    padding: 10px;
+    background-color: #FFF;
+}
+
+.container-details-padding-large {
+    padding: 80px;
+}
+
+.container-details-opacity {
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.container-details-dark {
+    padding: 10px;
+    background-color: #111;
+}
+
+.container-details-border {
+	border: 1px solid #dce0e0;
+	box-shadow: 0 0 8px rgba(0,0,0,0.075);
+}
+
+hr.line-separator-dashed {
+    border-top: 2px dashed #ddd;
+}
+
+hr.container-details-line-separator {
+    margin: 10px -10px;
+	border-top: 1px solid #ddd;
+}
+
+hr.container-details-opacity-line-separator {
+    margin: 10px -10px;
+	border-top: 1px solid #eee;
+}
+
+.container-details-padding, .ief-row-form .ief-form-row, 
+.ief-form, td {
+	padding: 10px;
+}
+
+.column-padding {
+	padding: 15px;
+}
+
+.ief-form {
+  background: #ECEEF0;
+}
+
+.col-centered {
+	display: inline-block;
+    margin: 0 -0.15em;
+}
+
+.col-margin {
+	margin: 0 15px;
+}
+
+.bounce-in {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+.bounce-in:hover, .bounce-in:focus, .bounce-in:active {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
+.cursor-pointer {
+	cursor: pointer;
+}
+
+div.nice-imagefield-sortable > div, .tb-megamenu .nav > li,
+.tb-megamenu .row-fluid [class*="span"] {
+	float: none;
+	display: inline-block;
+}
+
+.no-border, .custom-nav-bars.nav-tabs, .chosen-container-active .chosen-choices, 
+.tb-megamenu .nav > li > a {
+    border: none;
+}
+
+.no-border-top {
+	border-top: none;
+}
+
+.no-border-right {
+	border-right: none;
+}
+
+.no-border-bottom {
+	border-bottom: none;
+}
+
+.no-border-left {
+	border-left: none;
+}
+
+.views-exposed-form {
+    margin-bottom: 20px;
+}
+
+.row-views-content .view-content {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.views-exposed-form .views-exposed-widget, 
+.geofield-proximity-field-wrapper .form-item, 
+.geofield-proximity-field-wrapper .geofield-proximity-origin-from {
+    float: none;
+    display: inline-block;
+	text-align: left;
+    vertical-align: middle;
+}
+
+.overflow-height-description {
+    overflow-y: auto;
+	overflow-x: hidden;
+    max-height: 400px;
+}
+
+.overflow-height-description div, .overflow-height-description p, .overflow-height-description ul {
+    margin-right: 8px;
+}
+
+.overflow-height-description::-webkit-scrollbar, .app-list-overflow::-webkit-scrollbar {
+	width: 7px;
+	height: 7px;
+}
+
+.overflow-height-description::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgb(136, 136, 136);
+    border-radius: 10px;
+}
+
+.overflow-height-description::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: rgb(193, 193, 193);
+}
+
+.app-list-overflow::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #ffa489;
+}
+
+.overflow-height-description::-webkit-scrollbar-thumb:window-inactive, .app-list-overflow::-webkit-scrollbar-thumb:window-inactive {
+	background: rgb(136, 136, 136);
+}
+
+.transform-active {
+   max-height: 1000px;
+}
+
+.absolute-centered-details {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.absolute-right-centered-details {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0%,-50%);
+}
+
+.absolute-top-right-centered-details {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.absolute-left-centered-details {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0%,-50%);
+}
+
+.absolute-left-bottom-details {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.absolute-centered-bottom-details {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.no-link {
+   pointer-events: none;
+   cursor: default;
+}
+
+.g-recaptcha > div {
+	margin: 10px 0;
+}
+
+.absolute-read-more-btn {
+	position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.faded-bottom {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+	background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0,transparent),color-stop(1,white));
+    height: 40px;
+}
+
+.z-index-over {
+    z-index: 90;
+}
+
+.z-index-under {
+    z-index: -90;
+}
+
+.vbo-views-form select, .auto-width img {
+    width: auto !important;
+}
+
+.vertical-align {
+	vertical-align: middle;
+}
+
+input#edit-field-geofield-distance-origin {
+    max-width: 250px;
+}
+
+.tablesaw-stack tbody tr {
+    border: 1px solid #dfdfdf;
+}
+
+.scale-hover {
+	position: relative;
+	overflow: hidden;
+	background-color: #000;
+}
+
+.scale-hover img {
+  -moz-transition: all 0.4s linear;
+  -webkit-transition: all 0.4s linear;
+  transition: all 0.4s linear;
+}
+
+.scale-hover-container:hover .scale-hover img {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  opacity: 0.7;
+}
+
+.festive-filter img, .festive-filter-bg {
+    filter: contrast(105%) brightness(110%) blur(0px) saturate(110%);
+}
+
+.round-border-radius, .round-border-radius-image img {
+    border-radius: 5px;
+}
+
+.round-border-radius-top-left, .round-border-radius-top-left-image img {
+    border-top-left-radius: 5px;
+}
+
+.round-border-radius-bottom-left, .round-border-radius-bottom-left-image img {
+    border-bottom-left-radius: 5px;
+}
+
+.round-border-radius-top-right, .round-border-radius-top-right-image img {
+    border-top-right-radius: 5px;
+}
+
+.round-border-radius-bottom-right, .round-border-radius-bottom-right-image img {
+    border-bottom-right-radius: 5px;
+}
+
+.round-border-radius-small, .round-border-radius-image-small img {
+    border-radius: 3px;
+}
+
+.round-border-radius-top-left-small, .round-border-radius-top-left-image-small img {
+    border-top-left-radius: 3px;
+}
+
+.round-border-radius-bottom-left-small, .round-border-radius-bottom-left-image-small img {
+    border-bottom-left-radius: 3px;
+}
+
+.round-border-radius-top-right-small, .round-border-radius-top-right-image-small img {
+    border-top-right-radius: 3px;
+}
+
+.round-border-radius-bottom-right-small, .round-border-radius-bottom-right-image-small img {
+    border-bottom-right-radius: 3px;
+}
+
+.rate-section div:nth-of-type(odd) {
+    background-color: #efe6e3;
+    padding: 10px;
+}
+
+.rate-section div:nth-of-type(even) {
+    background-color: #e4e4e4;
+    padding: 10px;
+}
+
+.hover-hide-visible-container:hover .hover-hide-visible, .hover-hide {
+    display: none;
+    animation: fadeIn .5s linear;
+}
+
+.hover-hide-visible-container:hover .hover-hide, .hover-hide-visible {
+    display: block;
+    animation: fadeIn .5s linear;
+}
+
+.hover-hide-container-details {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border: 2px solid #fff;
+    padding: 10px;
+    margin: 15px;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.border-left-light-grey {
+    border-left: 1px solid #eee;
+}
+
+.views-exposed-form .views-exposed-widgets {
+    display: inline-block;
+    padding: 15px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.overflow-auto {
+    overflow: auto;
+}
+
+.transparent-exposed-form .views-exposed-form .views-exposed-widgets {
+    padding: 0;
+    border-radius: 0;
+    background: none;
+}
+
+/* END OF STANDARD CSS ***********************************************************************************************************************/
+
+/* BACKGROUND CSS ****************************************************************************************************************************/
+
+.bg-white {
+    background: #ffffff;
+}
+
+.bg-white-opacity {
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.bg-black-opacity {
+    background-color: rgba(15,15,15,0.5);
+}
+
+.bg-dark {
+    background: #181818;
+}
+
+.bg-peach {
+    background: #ffa489;
+}
+
+.bg-violet {
+    background: #b2807a;
+}
+
+.bg-dark-violet {
+    background: #7c6367;
+}
+
+.bg-light-peach {
+    background-color: #efe6e3;
+}
+
+.bg-light-grey {
+    background: #f6f6f6;
+}
+
+.bg-centered {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.bg-dark-shadow {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 0px 2000px inset;
+}
+
+.bg-light-shadow {
+    box-shadow: rgba(255, 255, 255, 0.65) 0px 0px 0px 2000px inset
+}
+
+.bg-arrow-down {
+    -webkit-clip-path: polygon(100% 0, 100% 80%, 50% 100%, 0 80%, 0 0);
+    clip-path: polygon(100% 0, 100% 75%, 50% 100%, 0 75%, 0 0);
+}
+
+.bg-square {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.centered-banner-small-parallax-bg {
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/* END OF BACKGROUND CSS *********************************************************************************************************************/
+
+/* FONT CSS **********************************************************************************************************************************/
+
+.font-josefin {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.semi-bold, .tb-main-menu .mega-nav > li a, 
+.tb-main-menu .dropdown-menu .mega-nav > li a {
+    font-weight: 600;
+}
+
+.light-bold, .tb-megamenu .nav > li > a,
+.tb-main-menu .dropdown-menu a {
+    font-weight: 500
+}
+
+.giant-font {
+    font-size: 70px;
+}
+
+.huge-font {
+    font-size: 50px;
+}
+
+.larger-font {
+    font-size: 30px;
+}
+
+.large-font {
+    font-size: 22px;
+}
+
+.medium-font {
+    font-size: 18px;
+}
+
+.small-font {
+    font-size: 12px;
+}
+
+.color-white, .color-white a,
+.tb-megamenu .btn-link:hover:focus {
+    color: #FFFFFF;
+}
+
+.color-black, .color-black a, 
+.tb-megamenu .btn-link:focus {
+    color: #000000;
+}
+
+.color-peach {
+    color: #ffa489;
+}
+
+.color-violet {
+    color: #b2807a;
+}
+
+.color-light-grey {
+    color: #f4f4f9;
+}
+
+.color-gold, a.color-gold {
+    color: #cea45b;
+}
+
+.letter-spacing-small {
+    letter-spacing: 5px;
+}
+
+.letter-spacing-extra-small {
+    letter-spacing: 3px;
+}
+
+.text-shadow {
+    text-shadow: rgb(0,0,0) 2px 1px 2px;
+}
+
+.rtecenter {
+    text-align: justify;
+    -moz-text-align-last: center;
+    text-align-last: center;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+}
+
+td.rtecenter {
+    text-align: center;
+    -moz-text-align-last: center;
+    text-align-last: center;
+    display: table-cell;
+}
+
+.uppercase, .page-admin th, .ief-entity-table th,
+.ief-form th {
+    text-transform: uppercase;
+}
+
+/* END OF FONT CSS ***************************************************************************************************************************/
+
+/* DISPLAY NONE CSS **************************************************************************************************************************/
+
+.page-node-add legend, .page-node-edit legend, .vbo-views-form legend,
+.tabledrag-toggle-weight-wrapper, .field-type-image .description,
+.text-format-wrapper .filter-wrapper, .commerce-line-item-actions {
+	display: none;
+}
+
+/* END OF DISPLAY NONE CSS *******************************************************************************************************************/
+
+/* NODE FORM CSS *****************************************************************************************************************************/
+
+.ui-datepicker select.ui-datepicker-month, .ui-datepicker select.ui-datepicker-year{
+	min-width:0px;
+}
+
+a.tabledrag-handle .handle {
+    height: auto;
+    width: 25px;
+	margin: -0.4em 0.4em;
+}
+a.browse {
+    background: #5F8CB4;
+    color: #fff;
+}
+.draggable a.tabledrag-handle {
+    height: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.form-item .description, .fieldset-description,
+.text-format-wrapper .description, .custom-field-description {
+	color: #666;
+    font-weight: 500;
+    font-size: 0.85em;
+}
+
+.form-checkboxes .form-item, .form-radios .form-item {
+    display: inline-block;
+    margin-right: 0.4em;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin: -1.5px 0 0 0;
+}
+
+div#edit-field-amenities-und, div#edit-field-features-und {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+}
+
+.field-name-field-amenities .form-item, .field-name-field-features .form-item {
+    display: block;
+}
+
+.nav-tabs>li {
+    display: inline-block;
+	float: none;
+}
+
+form .field-multiple-table td.field-multiple-drag {
+    background: #e0e0e0;
+}
+
+.field-type-field-collection tr.odd .form-item, .field-type-field-collection tr.even .form-item {
+    margin-bottom: 1em;
+}
+
+#sidebar-sticky input[type="text"], #sidebar-sticky input[type="password"], #sidebar-sticky input[type="email"], #sidebar-sticky textarea, #sidebar-sticky select {
+    border: none;
+    background: #FFFFFF;
+    color: #000000;
+}
+
+.container-details input[type="text"], .container-details input[type="password"], .container-details input[type="email"], .container-details textarea, .container-details select, .container-details .chosen-container, 
+.container-details .chosen-container.chosen-container-single, .container-details .chosen-container-multi .chosen-choices {
+    background: #f8f8f8;
+}
+
+.opacity-form-input input[type="text"],
+.opacity-form-input input[type="password"],
+.opacity-form-input input[type="email"],
+.opacity-form-input textarea {
+    color: #000000;
+    background: rgba(255, 255, 255, 0.75);
+}
+
+input[type="text"]::placeholder,
+input[type="password"]::placeholder,
+input[type="email"]::placeholder,
+select::placeholder {
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+
+/* END OF NODE FORM CSS **********************************************************************************************************************/
+
+/* BOOTSTRAP CUSTOM CSS **********************************************************************************************************************/
+
+.custom-nav-bars.nav-tabs>li>a {
+	border: 1px solid #AAAAAA;
+    background: #EEEEEE;
+    border-radius: 0;
+    background-image: linear-gradient(#f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #EEEEEE 100%);
+    box-shadow: 0 0 2px white inset, 0 1px 0 rgba(0, 0, 0, 0.05);
+    transition: all 0.2s ease-in-out 0s;
+    min-width: 150px;
+	margin-bottom: 10px;
+}
+
+.custom-nav-bars.nav-tabs>li>a:hover {
+	background: #EEE;
+    border: 1px solid #DDD;
+    color: #a0a5aa;
+}
+
+.custom-nav-bars.nav-tabs>li.active>a, .custom-nav-bars.nav-tabs>li.active>a:hover  {
+    color: #000000;
+    border-bottom: 0;
+    background-image: none;
+    box-shadow: none;
+	background: #a0a5aa;
+	border: 1px solid #a0a5aa;
+	color: #FFFFFF;
+}
+
+.row-eq-height {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.row-eq-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.column-vertical-align {
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+}
+
+.column-bottom-align {
+	display:flex;
+	flex-direction:column;
+	justify-content:flex-end;
+}
+
+/* END OF BOOTSTRAP CUSTOM CSS ***************************************************************************************************************/
+
+/* @ KEYFRAMES CSS  **************************************************************************************************************************/
+
+@keyframes scale-out {
+    0% { transform: scale(1) linear; }
+    99% { transform: scale(0) linear; }
+    100% {  position: absolute; left: -999px linear; }
+}
+
+@keyframes scale-in {
+    0% { transform: scale(0) linear; }
+    99% { transform: scale(1) linear; }
+    100% { position: static; left: 0 linear; }
+}
+
+/* END OF @ KEYFRAMES CSS  *******************************************************************************************************************/
+
+/* GALLERY CSS  ******************************************************************************************************************************/
+
+div.nice-imagefield-sortable, .custom-slick nav {
+	text-align: center;
+}
+
+div.nice-imagefield-sortable > div img {
+	left: 0;
+}
+
+div.image-preview, div.image-widget-data {
+    vertical-align: middle;
+    display: inline-block; 
+}
+
+.custom-slick .slick-track, .custom-slick .slick-initialized .slick-slide {
+    display: inline-block;
+}
+
+.custom-slick .slick-initialized .slick-slide {
+    vertical-align: middle;
+}
+
+.custom-slick .slick-slide, div.image-preview, div.image-widget-data {
+    float: none;
+}
+
+.custom-slick .slick-prev, .custom-slick .slick-next {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    border: 0;
+    background: #a0a5aa;
+    width: 30px;
+    height: 30px;
+    color: #FFFFFF;
+}
+
+.custom-slick .slick-prev {
+    left: 10px;
+}
+
+.custom-slick .slick-next {
+	right: 10px;
+}
+
+.custom-slick-white-nav .slick-prev, .custom-slick-white-nav .slick-next {
+    color: #FFFFFF !important;
+    text-shadow: rgb(0, 0, 0) 0px 0px 5px;
+}
+
+.custom-slick .slick-prev:focus, .custom-slick .slick-next:focus, .slick-slide:focus {
+    outline: none;
+}
+
+.custom-slick.custom-slick-bottom-nav .slick-prev, .custom-slick.custom-slick-bottom-nav .slick-next {
+    position: static;
+    margin: 20px 0 0 0;
+}
+
+.custom-slick-side-medium .slick-prev, .custom-slick-side-medium .slick-next {
+    font-size: 50px;
+    color: #545454;
+    width: auto;
+    height: auto;
+    background: none;
+}
+
+.custom-slick-side-large .slick-prev, .custom-slick-side-large .slick-next {
+    font-size: 80px;
+    color: #545454;
+    width: auto;
+    height: auto;
+    background: none;
+}
+
+.custom-slick-side-large .slick-prev {
+    left: -50px;
+}
+
+.custom-slick-side-large .slick-next {
+    right: -50px;
+}
+
+.thumb-img {
+	border: 1px solid #FFF;
+}
+
+.thumb-img-container > .thumb-img:first-child {
+	border-left: none;
+}
+
+.thumb-img-container > .thumb-img:last-child {
+	border-right: none;
+}
+
+.slick-mini-thumb .slick--optionset--gallery-thumbnail .slick__slide.slick-active, .slick-mini-thumb .slick-initialized .slick-slide {
+    background: #000;
+}
+
+.slick-mini-thumb .slick__slide img, .slick-mini-thumb .slick__slide.slick-active img {
+    opacity: 0.5;
+    width: 100%;
+}
+
+.slick-mini-thumb .slick__slide.slick-current img {
+    opacity: 1!important;
+}
+
+.slick-mini-thumb .slick__slide {
+    margin: 0px;
+}
+
+.slick-mini-thumb .slick-prev, .slick-mini-thumb .slick-next{
+    color:#FFFFFF;
+    text-shadow: #000 0px 0px 5px;
+}
+
+/* END OF GALLERY CSS  ***********************************************************************************************************************/
+
+/* ADMIN PAGE CSS  ***************************************************************************************************************************/
+
+th, .ief-entity-table th,
+.ief-form th {
+    background: #DCDCDC;
+    font-weight: normal;
+    border-style: solid;
+    padding: 10px;
+    border: 1px solid #BEBFB9;
+}
+
+tbody, .ief-entity-table tbody,
+.ief-form tbody {
+	border: 1px solid #BEBFB9;
+}
+
+/* END OF ADMIN PAGE CSS  ********************************************************************************************************************/
+
+/* CHOSEN CSS  *******************************************************************************************************************************/
+
+.chosen-container.chosen-container-single  {
+    min-width: 250px;
+    background: #FFFFFF;
+    padding: 16px 0;
+    border-radius: 2px;
+}
+
+.chosen-container-multi .chosen-choices {
+    padding: 15px 10px;
+    border-radius: 2px;
+    background-image: none;
+    margin-top: -1px;
+    background-color: #f8fafc;
+    border: none;
+    min-width: 250px;
+}
+
+.chosen-container-multi .chosen-choices li.search-choice {
+    margin: 0 5px 0 0;
+    font-size: 12px
+}
+
+.chosen-container-single .chosen-single {
+    height: auto !important;
+    border-radius: 2px !important;
+    border: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    line-height: normal !important;
+    color: #848688 !important;
+}
+
+.chosen-container-active.chosen-with-drop .chosen-single {
+    background: none;
+    border: none;
+    box-shadow: none;
+}
+
+.chosen-container.chosen-with-drop .chosen-drop {
+    border: none !important;
+    background: #f5f5f5 !important;
+    box-shadow: none !important;
+    margin: auto !important;
+}
+
+.chosen-container .chosen-results li.highlighted {
+    background-color: #ffa489 !important;
+    background-image: none !important;
+}
+
+.chosen-container .chosen-results li.group-result {
+    font-weight: 600;
+    border-top: 1px dashed #d6d6d6;
+}
+
+.chosen-container-single .chosen-single div b, .chosen-container-active.chosen-with-drop .chosen-single div b {
+    background-position-y: 0 !important;
+}
+
+/* END OF CHOSEN CSS  ************************************************************************************************************************/
+
+/* TB MEGA MENU CSS  *************************************************************************************************************************/
+
+.tb-megamenu {
+    background-color: transparent;
+}
+
+.tb-megamenu .btn {
+    border-radius: 0;
+    text-shadow: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.tb-megamenu .btn:hover {
+    box-shadow: none;
+    transition: all 0.2s ease-in-out;
+}
+ 
+.tb-megamenu .btn-link:focus {
+    text-decoration: none;
+}
+
+/* TB Main Menu */
+
+.tb-main-menu {
+    background: #ffa489;
+}
+
+.tb-main-menu .nav > li > a {
+    padding: 0px 35px;
+    line-height: 50px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #000000;
+}
+
+.tb-main-menu .nav li.dropdown.active > .dropdown-toggle,
+.tb-main-menu .nav li.dropdown.active > .dropdown-toggle, 
+.tb-main-menu .nav li.dropdown.open.active > .dropdown-toggle, 
+.tb-main-menu .nav > li.dropdown.open.active > a:hover,
+.tb-main-menu .nav > li > a:focus, 
+.tb-main-menu .nav > li > a:hover,
+.tb-main-menu .nav > .active > a, 
+.tb-main-menu .nav > .active > a:hover, 
+.tb-main-menu .nav > .active > a:focus,
+.tb-main-menu .nav li.dropdown.open > .dropdown-toggle,
+.tb-main-menu .nav > li.dropdown.open.active > a:focus {
+    background-color: transparent;
+    color: #FFFFFF;
+}
+
+.tb-main-menu .dropdown-menu {
+    float: none;
+    border-bottom: 3px solid #ffa489;
+    margin: 0;
+    padding: 0;
+    border-left: none;
+    border-right: none;
+}
+
+.tb-main-menu .mega-nav > li a, 
+.tb-main-menu .dropdown-menu .mega-nav > li a, .tb-megamenu .mega-nav > li:first-child > a, 
+.tb-megamenu .dropdown-menu .mega-nav > li:first-child > a {
+    padding: 10px;
+    font-weight: 500;
+}
+
+.tb-main-menu .dropdown-menu li > a:hover, 
+.tb-main-menu .dropdown-menu li > a:focus,
+.tb-main-menu .dropdown-menu .active > a,
+.tb-main-menu .dropdown-menu .active > a:hover {
+    background-image: none;
+    background-color: transparent;
+    color: #ffa489;
+}
+
+/* TB Sub Menu */
+
+.tb-sub-menu .nav > .active > a, 
+.tb-sub-menu .nav > .active > a:hover, 
+.tb-sub-menu .nav > .active > a:focus,
+.tb-sub-menu .nav > li > a:hover,
+.tb-sub-menu .nav > li > a:focus,
+.tb-sub-menu .nav li.dropdown.open > .dropdown-toggle,
+.tb-sub-menu .dropdown-menu li > a:hover,
+.tb-sub-menu .dropdown-menu li > a:focus,
+.tb-sub-menu .dropdown-submenu:hover > a,
+.tb-sub-menu .nav li.dropdown.active > .dropdown-toggle,
+.tb-sub-menu .nav li.dropdown.open.active > .dropdown-toggle, 
+.tb-sub-menu .nav > li.dropdown.open.active > a:hover, 
+.tb-sub-menu .nav > li.dropdown.open.active > a:focus,
+.tb-sub-menu .dropdown-menu .active > a, 
+.tb-sub-menu .dropdown-menu .active > a:hover {
+    background-color: transparent;
+    background: transparent;
+    color: #ffa489;
+}
+
+.tb-sub-menu .dropdown-menu {
+    border-bottom: 3px solid #c19b76;
+}
+
+
+.tb-sub-menu .nav > li > a, .custom-subnav-menu {
+    padding: 0px 20px;
+    line-height: 80px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    color: #333;
+}
+
+/* END OF TB MEGA MENU CSS  ******************************************************************************************************************/
+
+/* APP LIST **********************************************************************************************************************************/
+
+.access-apps-container {
+    font-size: 13px;
+    background: #98cb0d;
+    color: #FFF;
+    padding: 10px 15px;
+    line-height: 60px;
+}
+
+.app-list-container {
+    z-index: 999;
+    width: 500px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: -500px;
+    background: #181818;
+    transition: left .5s;
+    -webkit-transition: left .5s; /* Safari 3.1 to 6.0 */
+}
+
+.fixed-transition .app-list-container {
+    opacity: 1;
+}
+
+.app-list-item {
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+
+.app-list-item:hover {
+    border: 1px solid #e5e5e5;
+    background: rgba(229, 229, 229, 0.10);
+}
+
+.app-list-container .slick-slider .slick-track, .slick-slider .slick-list{
+    transform: none;
+}
+
+/* END OF APP LIST ***************************************************************************************************************************/
+
+/* @ MEDIA CSS  ******************************************************************************************************************************/
+
+@media screen and (max-width: 991px) {
+	.giant-font {
+		font-size: 50px;
+	}
+	.huge-font {
+		font-size: 45px;
+	}
+	h1 {
+		font-size: 30px;
+	}
+	h2 {
+		font-size: 25px;
+	}
+	h3 {
+		font-size: 20px;
+	}
+	.no-padding-sm {
+		padding: 0px !important;
+	}
+	.row-eq-height {
+		display: block;
+	}
+    .container-details-padding-large {
+        padding: 15px;
+    }
+    .letter-spacing-small, .letter-spacing-extra-small {
+        letter-spacing: 1px;
+    }
+    h1 .letter-spacing-small, h2 .letter-spacing-small, h3 .letter-spacing-small,
+    h4 .letter-spacing-small, .letter-spacing-small h1, .letter-spacing-small h2,
+    .letter-spacing-small h3, .letter-spacing-small h4 {
+        letter-spacing: 2px;
+    }
+    .custom-slick-side-large .slick-prev, .custom-slick-side-large .slick-next {
+        position: static;
+        display: inline-block;
+        font-size: 25px !important;
+        background: #ffa489 !important;
+        padding: 5px 25px;
+        margin: 30px 5px 0 5px;
+    }
+    .views-exposed-form .views-exposed-widget, 
+    .geofield-proximity-field-wrapper .form-item, 
+    .geofield-proximity-field-wrapper .geofield-proximity-origin-from {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .row-eq-height-content#section-main-content .section-content {
+        display: block !important;
+    }
+}
+
+@media (max-width: 39.9375em) {
+    .tablesaw tbody {
+        border: none;
+    }
+
+    .tablesaw-stack td,
+    .tablesaw-stack th {
+        text-align: left!important;
+        display: block;
+        text-align-last: left!important;
+        padding: 10px;
+    }
+    
+    .tablesaw-stack tbody tr {
+        margin-bottom: 20px;
+        border: 1px solid #dfdfdf;
+        display: grid;
+        border-bottom: none;
+    }
+
+    .tablesaw-cell-label, .tablesaw-cell-content {
+        vertical-align: middle;
+    }
+
+    .tablesaw-stack tbody td, .tablesaw-stack tbody th {
+        border: none;
+        border-bottom: 1px solid #dfdfdf;
+    }
+}
+
+/* END OF @ MEDIA CSS  ***********************************************************************************************************************/
+
+/* CUSTOM SLIDER CSS  ************************************************************************************************************************/
+
+/* the slides
+.slick-slide {
+    margin: 0 10px;
+}
+ */
+/* the parent */
+.slick-list {
+    margin: 0 -10px;
+}
+
+.ui-slider-float .ui-slider-handle.ui-state-default .ui-slider-tip {
+	opacity: 1;
+    top: -30px;
+    visibility: visible;
+
+}
+
+.ui-slider{
+	background: #ebfeff;
+}
+
+.ui-slider .ui-slider-range{
+	background: #34ced2;
+}
+
+.ui-state-focus, 
+.ui-widget-content .ui-state-focus, 
+.ui-widget-header .ui-state-focus,
+.ui-state-hover, 
+.ui-widget-content .ui-state-hover, 
+.ui-widget-header .ui-state-hover,
+.ui-state-default, 
+.ui-widget-content .ui-state-default, 
+.ui-widget-header .ui-state-default {
+    background: #2b2b2b;
+    border-color: transparent;
+}
+
+.ui-slider .ui-slider-handle.ui-state-default .ui-slider-tip,
+.ui-slider .ui-slider-handle.ui-state-active .ui-slider-tip,
+.ui-slider .ui-slider-handle.ui-state-focus .ui-slider-tip,
+.ui-slider .ui-slider-handle.ui-state-hover .ui-slider-tip,
+.ui-slider .ui-slider-handle:focus .ui-slider-tip,
+.ui-slider .ui-slider-handle:hover .ui-slider-tip {
+    top: -1px; 
+}
+
+/* END OF CUSTOM SLIDER CSS  *****************************************************************************************************************/
+
+/* VIDEO BACKGROUND **************************************************************************************************************************/
+
+.video-background {
+    padding-top: 56.25%;
+}
+
+.video-background iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.video-background-container {
+    padding: 260px 0;
+    overflow: hidden !important;
+    background: #000;
+}
+
+.video-background-container-medium {
+    padding: 280px 0;
+    overflow: hidden !important;
+    background: #000;
+}
+
+.video-background-container-large {
+    padding: 300px 0;
+    overflow: hidden !important;
+    background: #000;
+}
+
+.video-background-column {
+    width: 125%;
+    height: 125%;
+}
+
+.video-foreground, .video-background iframe {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  height: 300%; 
+  top: -100%;
+}
+
+/* END OF VIDEO BACKGROUND *******************************************************************************************************************/
+
+/* LXV GLOBAL NAVIGATION CSS *****************************************************************************************************************/
+
+.letter-spacing-5 {
+    letter-spacing: 5px;
+}
+
+.font-size-13 {
+    font-size: 13px;
+}
+
+.padding-5 {
+    padding: 5px;
+}
+
+.padding-15 {
+    padding: 15px;
+}
+
+.position-fixed {
+    position: fixed;
+}
+
+.bg-black {
+    background: #000000;
+}
+
+.border-right-deep-sky-blue {
+    border-right: 3px solid #00adef;
+}
+
+.clearlist, .clearlist li {
+    list-style: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    background: none !important;
+}
+
+.region.region-left-sidebar, .region.region-content {
+    padding: 0;
+}
+
+.row-eq-height-content#section-main-content .section-content {
+    margin: 0;
+    display: flex;
+}
+
+.lxv-group-drop-down-menu-container a {
+    font-size: 12px !important;
+    color: #888888 !important;
+}
+
+.lxv-group-drop-down-menu-container a:hover {
+    text-decoration: none !important;
+    color: #00adef !important;
+}
+
+.lxv-group-drop-down-menu-container {
+    overflow: auto;
+    visibility: hidden;
+}
+
+.lxv-group-drop-down-menu-container:hover, .lxv-group-drop-down-menu-container:focus {
+    visibility: visible;
+}
+
+.lxv-group-drop-down-menu-container::-webkit-scrollbar {
+    width: 3px;
+    height: 3px;
+}
+
+.lxv-group-drop-down-menu-container::-webkit-scrollbar-thumb {
+    background: rgb(193, 193, 193); 
+}
+
+.lxv-group-drop-down-menu-container::-webkit-scrollbar-thumb:window-inactive {
+    background: rgb(136, 136, 136);
+}
+
+.scroll-hover-container {
+    overflow: auto;
+    visibility: hidden;
+}
+
+.scroll-hover-content, .scroll-hover-container:hover, .scroll-hover-container:focus {
+    visibility: visible;
+}
+
+/* END OF LXV GLOBAL NAVIGATION CSS **********************************************************************************************************/

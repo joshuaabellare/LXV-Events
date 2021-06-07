@@ -1,0 +1,45 @@
+<?php
+/**
+ * Check if mobile
+ */
+function isMobile() {
+    return preg_match("/(android|avantgo|blackberry|bolt|boost|cricket|docomo|fone|hiptop|mini|mobi|palm|phone|pie|tablet|up\.browser|up\.link|webos|wos)/i", $_SERVER["HTTP_USER_AGENT"]);
+}
+/**                                                                           
+ * Implements hook_form_alter().                                              
+ */
+function custom_module_form_alter(&$form, &$form_state, $form_id) {
+	if ($form_id == 'views_exposed_form'){
+		$view = $form_state['view'];
+		if ($view){
+			//Setting placeholder
+			//$form['field_geofield_distance']['#origin_options']['#attributes'] = array('placeholder'=> array(t('Search for location')));
+			$form['field_max_capacity_value']['#attributes'] = array('placeholder'=> array(t('Number of guests')));
+			//Cleaning the filter labels
+			unset($form['#info']['field_max_capacity_value']['label']);
+		}
+	}
+	if (($form_id == 'bundled_package_node_form') || ($form_id == 'event_node_form') || ($form_id == 'parent_event_node_form') || ($form_id == 'page_node_form')){
+		if (isset($_GET['lid'])){
+			$base_location = $_GET['lid'];
+	 		$form['field_base_location']['und']['#default_value'] = $base_location;
+	 		$form['field_base_location']['und']['#attributes']['disabled'] = 'disabled';
+	 	}
+	 }
+}
+/**
+ * Implements hook_theme(). FOR INLINE ENTITY FORMS
+ */
+function custom_module_theme($existing, $type, $theme, $path) {
+	return array(
+		'block_admin_configure' => array(
+		  'arguments' => array(
+			  'form' => NULL,
+		  ),
+		  'template' => 'block-admin-configure',
+		  'path' => drupal_get_path('theme', 'evolve') . '/templates/block',
+		  'render element' => 'form',
+		)
+	);
+}
+?>
